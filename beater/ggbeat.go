@@ -64,7 +64,7 @@ func (bt *Ggbeat) Run(b *beat.Beat) error {
 		case <-ticker.C:
 		}
 
-		out, err := exec.Command("bash","-c","echo | cat teste.txt").Output()
+		out, err := exec.Command("bash","-c","echo \"info all\" | ./ggsci").Output()
 
 		r := regexp.MustCompile(`^(\w+)\s+(\w+)\s+(\w+)\s+([\w0-9:]+)\s+([\w0-9:]+)$`)
 
