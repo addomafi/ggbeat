@@ -1,0 +1,5 @@
+= Ggbeat Docs
+
+Welcome to the Ggbeat documentation.
+
+

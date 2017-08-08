@@ -1,0 +1,32 @@
+
+Oracle GoldenGate Command Interpreter for Oracle
+Version 12.1.2.1.0 OGGCORE_12.1.2.1.0_PLATFORMS_140727.2135.1_FBO
+Linux, x64, 64bit (optimized), Oracle 12c on Aug  7 2014 10:21:34
+Operating system character set identified as UTF-8.
+
+Copyright (C) 1995, 2014, Oracle and/or its affiliates. All rights reserved.
+
+
+
+GGSCI (ip-10-2-3-196.ec2.internal) 1>
+Program     Status      Group       Lag at Chkpt  Time Since Chkpt
+
+MANAGER     RUNNING
+EXTRACT     RUNNING     ONLINE20    unknown       00:00:02
+REPLICAT    ABENDED     BTREP01     431:34:25     411:48:42
+REPLICAT    RUNNING     BTREP02     00:00:00      00:00:03
+REPLICAT    RUNNING     BTREP03     00:00:00      00:00:04
+REPLICAT    RUNNING     REPON01     00:00:00      00:00:00
+REPLICAT    RUNNING     REPON02     00:00:00      00:00:01
+REPLICAT    RUNNING     REPON03     00:00:00      00:00:02
+REPLICAT    RUNNING     REPON04     00:00:00      00:00:02
+REPLICAT    STOPPED     REPON05     00:00:00      00:10:51
+REPLICAT    RUNNING     REPON08     00:00:00      00:00:06
+REPLICAT    RUNNING     REPON09     00:00:00      00:00:00
+REPLICAT    RUNNING     REPON10     00:00:00      00:00:02
+REPLICAT    RUNNING     REPON11     00:00:00      00:00:07
+REPLICAT    RUNNING     REPON12     00:00:00      00:00:01
+REPLICAT    RUNNING     REPON20     00:00:00      00:00:00
+
+
+GGSCI (ip-10-2-3-196.ec2.internal) 2>
