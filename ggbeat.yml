@@ -29,7 +29,7 @@ ggbeat:
 #-------------------------- Elasticsearch output ------------------------------
 output.elasticsearch:
   # Array of hosts to connect to.
-  hosts: ["search-es-prd-prv-kibana-vvkpgb52zwygp65s535prj7xli.us-east-1.es.amazonaws.com:443"]
+  hosts: ["localhost:9200"]
 
   # Optional protocol and basic auth credentials.
   protocol: "https"
